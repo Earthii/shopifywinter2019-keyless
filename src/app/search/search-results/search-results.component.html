@@ -5,7 +5,7 @@
         <td>Latest tag</td>
     </thead>
     <tbody>
-        <tr *ngFor="let repo of repositories">
+        <tr *ngFor="let repo of repositories | slice:0:10;">
             <td>{{repo.name}}</td>
             <td>{{repo.language}}</td>
             <td>{{repo.latestTag}}</td>

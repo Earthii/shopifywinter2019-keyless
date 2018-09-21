@@ -1,4 +1,4 @@
 <div class="search-box-component">
-    <input class="search-box" type="text" placeholder="Search for repositories ...">
-    <button type="button"> Search </button>
+    <input #queryText class="search-box" type="text" placeholder="Search for repositories ..." (keyup)="keyPressed($event)">
+    <button type="button" (click)="search(queryText.value)"> Search </button>
 </div>
