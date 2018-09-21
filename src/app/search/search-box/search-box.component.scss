@@ -1,0 +1,22 @@
+@import '../../../variables.scss';
+.search-box-component {
+  display: flex;
+  .search-box {
+    flex: 0.8;
+    padding: 15px 10px 15px 10px;
+    margin-right: 10px;
+    border: none;
+    border: 0.5px solid $grey;
+    border-radius: 3px;
+    outline: none;
+  }
+  button {
+    flex: 0.2;
+    background-color: $main-purple;
+    border: none;
+    border-radius: 3px;
+    color: $white;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}

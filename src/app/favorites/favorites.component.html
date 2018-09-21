@@ -1,0 +1,15 @@
+<table>
+        <thead>
+            <td>Name</td>
+            <td>Language</td>
+            <td>Latest tag</td>
+        </thead>
+        <tbody>
+            <tr *ngFor="let repo of repositories">
+                <td>{{repo.name}}</td>
+                <td>{{repo.language}}</td>
+                <td>{{repo.latestTag}}</td>
+                <td><span>Remove</span></td>
+            </tr>
+        </tbody>
+    </table>

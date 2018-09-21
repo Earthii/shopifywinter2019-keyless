@@ -1,0 +1,12 @@
+.search-component {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+
+  app-search-box {
+    flex: 0.2;
+  }
+  app-search-results {
+    flex: 0.8;
+  }
+}

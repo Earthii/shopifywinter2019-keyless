@@ -1,0 +1,14 @@
+@import '../../../variables.scss';
+
+table {
+  width: 100%;
+  thead {
+    font-weight: bold;
+  }
+  tbody {
+    span {
+      color: $main-purple;
+      text-decoration: underline;
+    }
+  }
+}
