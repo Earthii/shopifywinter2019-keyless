@@ -3,7 +3,7 @@
 This project was built as a solution to shopify's web developer internship challenge for winter 2019
 
 The web app is built with
-![Angular Logo](http://rodrigovenancio.info/wp-content/uploads/2017/04/1491199643_angular.png =56x56) Angular 
+![Angular Logo](http://rodrigovenancio.info/wp-content/uploads/2017/04/1491199643_angular.png)<!-- .element height="56px" width="56px" --> Angular 
 Github API v4 Graph QL
 
 ## Development server
