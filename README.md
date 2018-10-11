@@ -1,4 +1,4 @@
-# Shopifywinter2019
+# [Shopifywinter2019](https://earthii.github.io/shopifywinter2019/)
 
 This project was built as a solution to shopify's web developer internship challenge for winter 2019
 
